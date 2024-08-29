@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     const agentId = '40df21dd-76ef-46d3-b05e-be8cb210b8ca'; // Remplacez par l'ID réel de l'agent
-    const chatEndpoint = 'http://localhost:3000/src/app/api/chat'; // Remplacez par votre domaine et endpoint API
+    const chatEndpoint = 'http://localhost:3000/api/chat'; // Remplacez par votre domaine et endpoint API
   
     // Créer la bulle de chat
     const chatBubble = document.createElement('div');
